@@ -30,7 +30,7 @@ export class LoginPage {
       Facebook.api("/me?fields=name,gender", params)
       .then(function(user) {
         console.log(user)
-        user.picture = "https://graph.facebook.com/" + userId + "picture?type=large";
+        user.picture = "https://graph.facebook.com/" + userId + "/picture?type=large";
         NativeStorage.setItem('user',
         {
           name: user.name,
