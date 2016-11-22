@@ -43,4 +43,5 @@
         <variable name="APP_NAME" value="CBA-App" />
     </plugin>
     <plugin name="cordova-plugin-nativestorage" spec="~2.0.2" />
+    <plugin name="ionic-plugin-deploy" spec="~0.6.5" />
 </widget>
